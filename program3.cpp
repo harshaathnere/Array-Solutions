@@ -13,7 +13,7 @@ for (int i=0;i<n;i++){
 int i= -1;
 int pivot =0;
 for(int j=0; j<n;j++){
-    if(a[j]<pivot){
+    if(a[j]< pivot){
      i++;
      swap(a[i],a[j]);
     }
